@@ -6,11 +6,11 @@ body {
     padding: 0;
     background-color: #f9f9f9;
     color: #333;
+    text-align: center; /* Center all text */
 }
 
 /* Header styling */
 h1 {
-    text-align: center;
     color: #2c3e50;
     margin-top: 20px;
     font-size: 2.5em;
@@ -32,9 +32,11 @@ p {
 
 /* List styling */
 ul {
-    margin: 10px 40px;
+    margin: 10px auto;
     padding: 0;
     list-style-type: disc;
+    display: inline-block; /* Center the list */
+    text-align: left; /* Align list items to the left */
 }
 
 ul li {
@@ -48,36 +50,4 @@ iframe {
     border: 2px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Add some spacing between sections */
-h2 + p, h2 + iframe {
-    margin-top: 10px;
-}
-
-/* Footer or additional spacing */
-body::after {
-    content: "";
-    display: block;
-    height: 50px;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2em;
-    }
-
-    h2 {
-        font-size: 1.5em;
-    }
-
-    p {
-        font-size: 1em;
-    }
-
-    iframe {
-        width: 95%;
-        height: 400px;
-    }
 }
