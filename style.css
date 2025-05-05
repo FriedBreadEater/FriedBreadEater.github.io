@@ -4,20 +4,20 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #28a745; /* Changed to green */
+    color: #fff; /* Adjusted text color for better contrast */
     text-align: center; /* Center all text */
 }
 
 /* Header styling */
 h1 {
-    color: #2c3e50;
+    color: #ffffff; /* White text for better contrast */
     margin-top: 20px;
     font-size: 2.5em;
 }
 
 h2 {
-    color: #34495e;
+    color: #f8f9fa; /* Light gray for contrast */
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 1.8em;
@@ -27,7 +27,8 @@ h2 {
 p {
     margin: 10px 20px;
     font-size: 1.1em;
-    line-height: 1;
+    line-height: 1.6;
+    color: #f8f9fa; /* Light gray for readability */
 }
 
 /* List styling */
@@ -36,11 +37,12 @@ ul {
     padding: 0;
     list-style-type: disc;
     display: inline-block; /* Center the list */
-    text-align: center; /* Align list items to the left */
+    text-align: left; /* Align list items to the left */
 }
 
 ul li {
     margin-bottom: 10px;
+    color: #f8f9fa; /* Light gray for readability */
 }
 
 /* Iframe styling */
